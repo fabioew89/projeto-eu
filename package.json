@@ -1,0 +1,19 @@
+{
+  "name": "projeto-eu",
+  "version": "1.0.0",
+  "description": "Olá, aqui quem fala é o Fábio e esse é meu site pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fábio Ewerton",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
