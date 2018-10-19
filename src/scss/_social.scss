@@ -1,0 +1,36 @@
+.social{
+
+	.redes-sociais{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3rem;
+
+		img{
+			height: 45px;
+			margin: 0 1rem;
+		}
+	}
+
+	.contato{
+		@extend .redes-sociais;
+
+		a{
+			
+			border: .2rem solid #000;	
+			padding: 1rem 3rem;
+			border-radius: 5rem;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: .3s;
+			color: black;
+			font-weight: bold;
+
+			&:hover{
+				border: .2rem solid transparent;
+				background-color: black;
+				color: white;
+			}
+
+		}
+	}
+}

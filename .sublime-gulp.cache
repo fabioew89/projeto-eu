@@ -1,0 +1,1 @@
+{"C:\\Users\\fabio\\www\\projeto-eu\\gulpfile.js":{"sha1":"da71676561d272c5d7d64efc9ddae404e495f7bd","tasks":{"html":{"name":"html","dependencies":""},"sass":{"name":"sass","dependencies":""},"moveImg":{"name":"moveImg","dependencies":""},"bs":{"name":"bs","dependencies":"html sass moveImg"},"default":{"name":"default","dependencies":"bs"}}}}
