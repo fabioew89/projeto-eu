@@ -1,4 +1,10 @@
 body{
 	background-image: url('../img/bg/gaming-pattern.png');
 	padding-top: 4rem;
+	overflow-x: hidden;
+
+	section{
+		border: .5rem solid dodgerblue;
+		margin-bottom: 1rem;
+	}
 }

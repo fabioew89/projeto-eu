@@ -1,4 +1,5 @@
 .social{
+	padding: 3rem 0;
 
 	.redes-sociais{
 		display: flex;
@@ -12,7 +13,8 @@
 	}
 
 	.contato{
-		@extend .redes-sociais;
+		display: flex;
+		justify-content: center;
 
 		a{
 			
