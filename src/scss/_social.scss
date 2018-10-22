@@ -1,10 +1,8 @@
 .social{
-	padding: 3rem 0;
-
 	.redes-sociais{
 		display: flex;
+		margin-bottom: 3.5rem;
 		justify-content: center;
-		margin-bottom: 3rem;
 
 		img{
 			height: 45px;
@@ -13,24 +11,22 @@
 	}
 
 	.contato{
-		display: flex;
-		justify-content: center;
+		text-align: center;
 
 		a{
-			
-			border: .2rem solid #000;	
+			color: $cor-padrao;
+			transition: .3s;
+			font-weight: bold;
 			padding: 1rem 3rem;
 			border-radius: 5rem;
 			text-decoration: none;
+			border: .2rem solid $cor-padrao;	
 			text-transform: uppercase;
-			transition: .3s;
-			color: black;
-			font-weight: bold;
 
 			&:hover{
-				border: .2rem solid transparent;
-				background-color: black;
 				color: white;
+				background-color: $cor-padrao;
+				border: .2rem solid transparent;
 			}
 
 		}

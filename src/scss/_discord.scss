@@ -1,8 +1,13 @@
-.discord{
+.discord-widget{
+	background-color: #34495e;
 
-	.discord-widget{
-		height: 75vh;
-		width: 100%;
-		box-shadow: gray 1rem 1rem 1rem;
+	div.container{
+		// opacity: .5;
+	
+		.discord-widget-app{
+			height: 75vh;
+			width: 100%;
+			box-shadow: 1rem 1rem 1rem rgba(0,0,0,.3);
+		}
 	}
 }
