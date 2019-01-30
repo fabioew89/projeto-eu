@@ -14,9 +14,9 @@ function clearHtml(){
 
 function clearSass(){
   return src('./src/scss/style.scss')
-        .pipe(sass({outputStyle:'collapsed'}))
+        .pipe(sass({outputStyle:'compressed'}))
         .on("error", notify.onError("Error: <%= error.message %>"))
-        .pipe(dest('dist/css'))
+        .pipe(dest('./dist/css/'))
         .pipe(browserSync.stream())
 
 }
@@ -29,7 +29,9 @@ function BS(){
   })
 
   watch('./src/index.html', clearHtml)
-  watch('./src/scss/style.scss', clearSass)
+  watch('./src/scss/*.scss', clearSass)
+
+  exports.BS = series(clearHtml, clearSass)
 }
 
-exports.default = series(BS, clearHtml, clearSass)
+exports.default = BS

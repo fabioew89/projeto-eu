@@ -1,13 +1,24 @@
 header{
-	.navbar{
-		background-color: $cor-padrao;
-	}
-	img{
-		border-radius: .4rem;
+	// border: 1px solid red;
+	// height: 300px;
+	padding: 4rem 0 3rem 0;
+
+	h1{
+		font-size: 50pt;
 	}
 
-	.menuPrincipalHeader{
-		display: flex;
-		justify-content: flex-end;
+	h1, p{
+		text-align: center;
+		font-family: 'Baloo'
 	}
+
+	
+
+	// div{
+	// 	border: 1px solid orange;
+	// 	display: flex;
+	// 	justify-content: center;
+
+	// 	font-family: 'Baloo'
+	// }
 }
