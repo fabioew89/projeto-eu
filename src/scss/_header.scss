@@ -1,24 +1,24 @@
 header{
-	// border: 1px solid red;
-	// height: 300px;
-	padding: 4rem 0 3rem 0;
+	padding: 3.5rem 0 2.5rem 0;
+
+	h1, p{
+		text-align: center;
+		font-family: 'Permanent Marker', cursive;
+		color: white;
+	}
 
 	h1{
 		font-size: 50pt;
 	}
 
-	h1, p{
-		text-align: center;
-		font-family: 'Baloo'
+	p:last-child{
+		margin: 0;
+
+		a{
+			color: white;
+			font-size: 30pt;
+			margin: 1rem
+		}
 	}
 
-	
-
-	// div{
-	// 	border: 1px solid orange;
-	// 	display: flex;
-	// 	justify-content: center;
-
-	// 	font-family: 'Baloo'
-	// }
 }

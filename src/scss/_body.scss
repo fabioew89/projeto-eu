@@ -2,7 +2,10 @@
 	box-sizing: border-box;
 }
 body{
-	background-image: url('../img/bg/gaming-pattern.png');
+	// background-image: linear-gradient(to bottom right, #8e44ad, #34495e);
+	background: url('../img/bg/gaming-pattern'),
+					  linear-gradient(to bottom right, #4db6ac, #4caf50);
+
 
 	section{
 		padding: 7rem 0;
