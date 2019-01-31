@@ -30,55 +30,66 @@
         <!-- Objetivo:  -->
         <p>Web Designer</p>
 
-        <!-- Redes Sociais -->
-        <p>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-steam"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-discord"></i></a>
-        </p>
-        <!-- <p>icones de redes sociais... <br> Youtube, Steam, Instagram, Twitter and Discord</p> -->
-
-
+        <!-- Redes Sociais - Font Awesome-->
+	<div class="redes-sociais-font-awesome">
+		<p>
+			<a href="http://bit.ly/2xU6t6z" target="_target" title="YouTube"><i class="fab fa-youtube"></i></a>
+			<a href="http://bit.ly/2OU6KOj" target="_target" title="Steam"><i class="fab fa-steam"></i></a>
+			<a href="http://bit.ly/2Qd7y0Y" target="_target" title="Instagram"><i class="fab fa-instagram"></i></a>
+			<a href="http://bit.ly/2Ilj0Vk" target="_target" title="Twitter"><i class="fab fa-twitter"></i></a>
+			<a href="http://bit.ly/2yApf41" target="_target" title="Discord"><i class="fab fa-discord"></i></a>
+		</p>
+	</div>
 
       </header>
       
     <!-- discord -->
-<!--     <section class="discord-widget" id="discord-widget">
+    
+    <section class="discord-widget" id="discord-widget">
         <div class="container">
             <iframe class="discord-widget-app" src="https://discordapp.com/widget?id=498732391028752384&theme=dark" allowtransparency="true" frameborder="0"></iframe>        
         </div>
-    </section> -->
+    </section>
 
   <!-- social -->
   <section class="social" id="social">
-    <div class="redes-sociais">
-      <a href="http://bit.ly/2xU6t6z" target="_target">
-        <img src="img/redes-sociais/youtube.png" alt="youtube-icon" title="YouTube">
-      </a>
-
-      <a href="http://bit.ly/2OU6KOj" target="_blank">
-        <img src="img/redes-sociais/games.png" alt="games-icon" title="Steam">
-      </a>
-
-      <a href="http://bit.ly/2Qd7y0Y" target="_blank">
-        <img src="img/redes-sociais/instagram.png" alt="instagram-icon" title="Instagram">
-      </a>
-
-      <a href="http://bit.ly/2Ilj0Vk" target="_blank">
-        <img src="img/redes-sociais/twitter.png" alt="twitter-icon" title="Twitter">
-      </a>
-
-      <a href="http://bit.ly/2yApf41" target="_blank">
-        <img src="img/redes-sociais/discord.png" alt="discord-icon" title="Discord">
-      </a>
-  </div>
+	<div class="redes-sociais-font-awesome">
+		<p>
+			<a href="http://bit.ly/2xU6t6z" target="_target" title="YouTube"><i class="fab fa-youtube"></i></a>
+			<a href="http://bit.ly/2OU6KOj" target="_target" title="Steam"><i class="fab fa-steam"></i></a>
+			<a href="http://bit.ly/2Qd7y0Y" target="_target" title="Instagram"><i class="fab fa-instagram"></i></a>
+			<a href="http://bit.ly/2Ilj0Vk" target="_target" title="Twitter"><i class="fab fa-twitter"></i></a>
+			<a href="http://bit.ly/2yApf41" target="_target" title="Discord"><i class="fab fa-discord"></i></a>
+		</p>
+	</div>
 
     <div class="contato">
       <a href="mailto:fabioew89@gmail.com" title="E-mail">Contato</a>
     </div>
   </section>
+
+	<!-- disqus -->
+	<div class="container" style="background-color: white; margin-bottom: 1rem; border-radius: .2rem; box-shadow: .2rem .2rem .1rem lightgray;">
+		<div id="disqus_thread"></div>
+		
+		<script>
+		var disqus_config = function () {
+		this.page.url = eu.fabioewerton.com.br;  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = eu.fabioewerton.com.br; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://http-eu-fabioewerton-com-br.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+	</div>
+
+
 
 	<!-- footer - rodapé -->
 	<footer class="rodape">
@@ -91,5 +102,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- disqus -->
+    <script id="dsq-count-scr" src="//http-eu-fabioewerton-com-br.disqus.com/count.js" async></script>
   </body>
 </html>
