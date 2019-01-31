@@ -7,14 +7,14 @@
 		justify-content: center;
 
 		a{
-			color: white;
+			color: $cor-padrao;
 			font-size: 30pt;
 			padding: 0 1rem;
-			transition: .3s;
+			transition: $transition;
 	
 			&:hover{
-				color: #004d40;
-				font-size: 35pt
+				color: $cor-background;
+				font-size: 40pt
 			}
 		}
 	}
@@ -26,20 +26,26 @@
 	margin-top: 3rem;
 
 	a{
-		color: white;
-		transition: .3s;
+		color: $cor-padrao;
+		transition: $transition;
 		font-weight: bold;
 		padding: 1rem 3rem;
 		border-radius: 5rem;
 		text-decoration: none;
-		border: .2rem solid white;	
+		border: .2rem solid $cor-padrao;	
 		text-transform: uppercase;
 		font-size: 14pt;
+		box-shadow: 0 5px 0 $cor-background;
 
 		&:hover{
-			color: #004d40;
-			background-color: white;
+			color: $cor-background;
+			background-color: $cor-padrao;
 			border: .2rem solid transparent;
+			
+			box-shadow: none;
+			// -ms-transform: translate(50px, 100px); /* IE 9 */
+			// -webkit-transform: translate(50px, 100px); /* Safari */
+			transform: translate(20px);
 		}
 	}
 }
