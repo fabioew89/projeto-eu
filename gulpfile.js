@@ -37,7 +37,7 @@ function BS(){
   })
 
   watch('./src/index.html', clearHtml)
-  watch('./src/scss/*.scss', clearSass)
+  watch('./src/scss/**/*.scss', clearSass)
   watch('./src/img/**/*', copyImg)
 
 }

@@ -1,4 +1,15 @@
-$cor-padrao: white;
+// Colors
+$cor-padrao: #FFFFFF;
 $cor-background: #004d40;
 
+// font-family para titulos
+$h1-default: 'Permanent Marker', cursive;
+
+// Transitions
 $transition: all 150ms ease;
+
+// Shadows
+$text-shadow: .1rem .1rem $cor-background;
+$box-shadow: .1rem .1rem $cor-background;
+
+$border-radius: .3rem;

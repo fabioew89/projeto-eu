@@ -1,13 +1,14 @@
-header{
+.header{
 	padding: 3.5rem 0 2.5rem 0;
-
-	h1, p{
-		text-align: center;
-		font-family: 'Permanent Marker', cursive;
-		color: $cor-padrao;
-	}
 
 	h1{
 		font-size: 50pt;
+	}
+
+	h1, p{
+		text-align: center;
+		color: $cor-padrao;
+		text-shadow: $text-shadow;
+		font-family: $h1-default;
 	}
 }
