@@ -14,38 +14,40 @@
 	
 			&:hover{
 				color: $cor-background;
-				font-size: 40pt
+				font-size: 40pt;
 			}
 		}
 	}
 }
 
-.contato{
-	text-align: center;
-	// border: 1px solid red;	
-	margin-top: 3rem;
+.contato-email{
+	display: flex;
+	justify-content: center;
 
 	a{
-		color: $cor-padrao;
-		transition: $transition;
-		font-weight: bold;
-		padding: 1rem 3rem;
-		border-radius: 5rem;
-		text-decoration: none;
-		border: .2rem solid $cor-padrao;	
-		text-transform: uppercase;
 		font-size: 14pt;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: none;
+
+		color: $cor-padrao;
+
+		border: .2rem solid $cor-padrao;
+		border-radius: 5rem;
+		padding: 1rem 3rem;
+
+		transition: $transition;
 		box-shadow: 0 5px 0 $cor-background;
 
 		&:hover{
 			color: $cor-background;
 			background-color: $cor-padrao;
 			border: .2rem solid transparent;
-			
+		}
+
+		&:active{
+			transform: translatey(5px);
 			box-shadow: none;
-			// -ms-transform: translate(50px, 100px); /* IE 9 */
-			// -webkit-transform: translate(50px, 100px); /* Safari */
-			transform: translate(20px);
 		}
 	}
 }
