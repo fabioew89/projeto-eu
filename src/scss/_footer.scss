@@ -1,11 +1,15 @@
 .rodape{
-	text-align: right;
+	text-align: center;
 	padding: 1rem 1rem;
 	background-color: $cor-background;
 
 	p{
 		margin: 0;
 		color: lightgray;
-		font-size: 8pt;
+		font-size: 11pt;
+
+		a{
+			color: lightgray;
+		}
 	}
 }

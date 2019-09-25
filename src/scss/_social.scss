@@ -1,7 +1,7 @@
 .redes-sociais-font-awesome{
 	p{
 		margin: 0;
-		height: 15vh;
+		height: 30vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -9,9 +9,9 @@
 		a{
 			color: $cor-padrao;
 			font-size: 30pt;
-			padding: 0 1rem;
+			padding: 0 .75rem;
 			transition: $transition;
-	
+
 			&:hover{
 				color: $cor-background;
 				font-size: 40pt;

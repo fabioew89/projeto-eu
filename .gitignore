@@ -1,5 +1,4 @@
-package-lock.json
-projeto-eu.sublime-workspace
-.sublime-gulp.cache
-dist/
 node_modules/
+oldsite/
+package-lock.json
+dist/

@@ -1,11 +1,6 @@
-@import "sections/_about.scss";
-
 section{
 	padding: 1rem 1rem;
 	margin-bottom: 1rem;
-	box-shadow: $box-shadow;
-	border-radius: $border-radius;
-	background-color: $cor-padrao;
 
 	h1{
 		font-family: $h1-default;
